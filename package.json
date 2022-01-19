@@ -1,0 +1,16 @@
+{
+  "name": "typescript_projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dist": "tsc --outDir dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pandoc-ts": "^1.0.5"
+  }
+}
