@@ -1,0 +1,9 @@
+.bordoSup {
+    border-top: 150px;
+    .card-body {
+        color: blue;
+        p.card-text {
+            color: red;
+        }
+    }
+}

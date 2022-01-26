@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ContactComponent } from './contact/contact.component';
+import { ContatComponent } from './contact/contat.component';
 
 const routes: Routes = [
-  {path:'contact', component: ContactComponent},
+  { path: 'contact', component: ContatComponent },
   { path: 'articles', loadChildren: () => import('./articles/articles.module').then(m => m.ArticlesModule) },
-  {path: '', pathMatch:'full', redirectTo:'articles'},
-  {path: '**', redirectTo:'articles'}
- 
+  { path: '', pathMatch: 'full', redirectTo: 'articles' },
+  { path: '**', redirectTo: 'articles' }
 ];
 
 @NgModule({
