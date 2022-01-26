@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "my-blog": {
+    "My-Blog": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -75,10 +75,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "my-blog:build:production"
+              "browserTarget": "My-Blog:build:production"
             },
             "development": {
-              "browserTarget": "my-blog:build:development"
+              "browserTarget": "My-Blog:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -86,7 +86,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "my-blog:build"
+            "browserTarget": "My-Blog:build"
           }
         },
         "test": {
@@ -110,5 +110,5 @@
       }
     }
   },
-  "defaultProject": "my-blog"
+  "defaultProject": "My-Blog"
 }
