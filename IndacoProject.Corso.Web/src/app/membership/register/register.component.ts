@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { AuthService } from '../auth.service';
+import { UserService } from 'src/app/api/indaco-api';
+import { TokenStorageService } from '../token-storage.service';
+
 
 
 @Component({
@@ -17,7 +19,7 @@ export class RegisterComponent implements OnInit {
   isSignUpFailed = false;
   errorMessage = '';
 
-  constructor(private authService: AuthService) { }
+  constructor(private userService: UserService, private tokenStorage: TokenStorageService) { }
 
   ngOnInit(): void {
   }
@@ -25,16 +27,22 @@ export class RegisterComponent implements OnInit {
   onSubmit(): void {
     const { username, email, password } = this.form;
 
-    this.authService.register(username, email, password).subscribe(
-      data => {
-        console.log(data);
+    this.userService.apiUserRegisterPost({
+      email,
+      userName: email,
+      firstName: "",
+      lastName: "",
+      password
+    }).subscribe({
+      next: data => {
+        this.tokenStorage.saveToken(data);
         this.isSuccessful = true;
         this.isSignUpFailed = false;
       },
-      err => {
+      error: (err: any) => {
         this.errorMessage = err.error.message;
         this.isSignUpFailed = true;
       }
-    );
+    });
   }
 }
