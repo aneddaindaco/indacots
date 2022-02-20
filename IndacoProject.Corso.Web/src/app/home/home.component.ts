@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UserService } from '../api/indaco-api';
 
 @Component({
   selector: 'app-home',
@@ -8,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent  implements OnInit {
   content?: string;
 
-  constructor() { }
+  constructor(private userService: UserService) { }
 
   ngOnInit(): void {
+
+console.log("")
+    this.userService.apiUserLoginPost({ userName: "", password: "" }).subscribe({
+      next: data => {
+
+      },
+      error: (err: any) => {
+
+      }
+    });
+
     // this.userService.getPublicContent().subscribe(
     //   data => {
     //     this.content = data;

@@ -57,7 +57,7 @@ namespace IndacoProject.Corso.Api
 
             app.UseStaticFiles();
             app.UseRouting();
-
+            app.UseCors("CorsPolicy");
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseFileServer(env, "wwwroot");
