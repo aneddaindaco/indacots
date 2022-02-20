@@ -28,8 +28,8 @@ export class LoginComponent implements OnInit {
     const { username, password } = this.form;
 
     this.userService.apiUserLoginPost({ userName: username, password }).subscribe({
-      next: data => {
-        this.tokenStorage.saveToken(data);
+      next: (data:any) => {
+        this.tokenStorage.saveToken(data.accessToken);
         this.isLoginFailed = false;
         this.isLoggedIn = true;
         this.reloadPage();
