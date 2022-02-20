@@ -1,0 +1,54 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "Serilog": {
+    "Using": [ "Serilog.Sinks.Console", "Serilog.Sinks.File" ],
+    "MinimumLevel": "Information",
+    "WriteTo": [
+      {
+        "Name": "File",
+        "Args": {
+          "path": "logs/log.txt",
+          "rollingInterval": "Day"
+        }
+      },
+      {
+        "Name": "Console",
+        "Args": {
+          "outputTemplate": "{Timestamp} [{Level}] ({SourceContext:l}) {Message}{NewLine}{Exception}"
+        }
+      }
+    ]
+  },
+  "AllowedHosts": "*",
+  "Base": {
+    "Codice": "20",
+    "Descrizione": "Indaco CM3"
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Database=IndacoProject.Corso;Trusted_Connection=True;MultipleActiveResultSets=true;",
+    "Northwind": "Server=localhost;Database=Northwind;Trusted_Connection=True;"
+  },
+  "Smtp": {
+    "Host": "",
+    "Port": 25,
+    "FromAddress": "",
+    "FromName": "",
+    "Username": "",
+    "Password": "",
+    "SSL": false,
+    "RetryAttempt": 3,
+    "CheckTimeout": 1
+  },
+  "Jwt": {
+    "Secret": "this is my custom Secret key for authnetication",
+    "Audience": "indaco",
+    "Issuer": "indaco",
+    "NameClaimType": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name"
+  }
+}
