@@ -6,6 +6,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MembershipModule } from './membership/membership.module';
+import { ApiModule, Configuration, ConfigurationParameters } from 'src/app/api/indaco-api';
+
+
+export function apiConfigFactory(): Configuration {
+  const params: ConfigurationParameters = {
+    basePath: 'http://localhost:5000',
+  };
+  return new Configuration(params);
+}
 
 @NgModule({
   declarations: [
@@ -13,6 +22,7 @@ import { MembershipModule } from './membership/membership.module';
     HomeComponent
   ],
   imports: [
+    ApiModule.forRoot(apiConfigFactory),
     BrowserModule,
     AppRoutingModule,
     FormsModule,
