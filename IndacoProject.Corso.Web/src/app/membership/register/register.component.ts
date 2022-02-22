@@ -34,8 +34,8 @@ export class RegisterComponent implements OnInit {
       lastName: "",
       password
     }).subscribe({
-      next: data => {
-        this.tokenStorage.saveToken(data);
+      next: (data: any) => {
+        this.tokenStorage.login(data.accessToken, data.refreshToken);
         this.isSuccessful = true;
         this.isSignUpFailed = false;
       },

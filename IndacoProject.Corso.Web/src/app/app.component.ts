@@ -18,7 +18,7 @@ export class AppComponent {
   constructor(private tokenStorageService: TokenStorageService) { }
 
   ngOnInit(): void {
-    this.isLoggedIn = !!this.tokenStorageService.getToken();
+    this.isLoggedIn = this.tokenStorageService.loggedIn;
 
     if (this.isLoggedIn) {
       const user = this.tokenStorageService.getUser();
@@ -32,7 +32,7 @@ export class AppComponent {
   }
 
   logout(): void {
-    this.tokenStorageService.signOut();
+    this.tokenStorageService.logout();
     window.location.reload();
   }
 }

@@ -19,7 +19,7 @@ export class LoginComponent implements OnInit {
   constructor(private userService: UserService, private tokenStorage: TokenStorageService) { }
 
   ngOnInit(): void {
-    if (this.tokenStorage.getToken()) {
+    if (this.tokenStorage.accessToken) {
       this.isLoggedIn = true;
     }
   }
@@ -29,9 +29,9 @@ export class LoginComponent implements OnInit {
 
     this.userService.apiUserLoginPost({ userName: username, password }).subscribe({
       next: (data:any) => {
-        this.tokenStorage.saveToken(data.accessToken);
+        this.tokenStorage.login(data.accessToken, data.refreshToken);
         this.isLoginFailed = false;
-        this.isLoggedIn = true;
+        this.isLoggedIn = this.tokenStorage.loggedIn;
         this.reloadPage();
       },
       error: (err: any) => {
