@@ -1,0 +1,54 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "Serilog": {
+    "Using": [ "Serilog.Sinks.Console", "Serilog.Sinks.File" ],
+    "MinimumLevel": "Information",
+    "WriteTo": [
+      {
+        "Name": "File",
+        "Args": {
+          "path": "logs/log.txt",
+          "rollingInterval": "Day"
+        }
+      },
+      {
+        "Name": "Console",
+        "Args": {
+          "outputTemplate": "{Timestamp} [{Level}] ({SourceContext:l}) {Message}{NewLine}{Exception}"
+        }
+      }
+    ]
+  },
+  "AllowedHosts": "*",
+  "Base": {
+    "Codice": "10",
+    "Descrizione": "Indaco CM2"
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=SRV2012;Database=CorsoIndaco;User ID=sa;Password=Duemila17;Trusted_Connection=False;MultipleActiveResultSets=true;",
+    "Northwind": "Server=SRV2012;Database=Northwind;User ID=sa;Password=Duemila17;Trusted_Connection=False;MultipleActiveResultSets=true;"
+  },
+  "Smtp": {
+    "Host": "localhost",
+    "Port": 25,
+    "FromAddress": "support@indaconew.it",
+    "FromName": "Support Indaco",
+    "Username": "",
+    "Password": "",
+    "SSL": false,
+    "RetryAttempt": 3,
+    "CheckTimeout": 1
+  },
+  "Jwt": {
+    "Secret": "this is my custom Secret key for authnetication",
+    "Audience": "indaco",
+    "Issuer": "indaco",
+    "NameClaimType": "id"
+  }
+}

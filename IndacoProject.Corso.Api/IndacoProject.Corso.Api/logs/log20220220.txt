@@ -1,0 +1,886 @@
+2022-02-20 13:14:36.823 +01:00 [INF] User profile is available. Using 'C:\Users\riolo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-02-20 13:14:38.462 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:14:39.063 +01:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-02-20 13:14:39.094 +01:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-02-20 13:14:39.103 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-02-20 13:14:39.109 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-02-20 13:14:39.131 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-02-20 13:14:39.148 +01:00 [INF] No migrations were applied. The database is already up to date.
+2022-02-20 13:14:39.187 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:14:39.502 +01:00 [INF] Executed DbCommand (44ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:14:39.990 +01:00 [INF] Now listening on: http://localhost:5000
+2022-02-20 13:14:39.992 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-20 13:14:39.993 +01:00 [INF] Hosting environment: Development
+2022-02-20 13:14:39.995 +01:00 [INF] Content root path: D:\Desktop\indacots\IndacoProject.Corso.Api\IndacoProject.Corso.Api
+2022-02-20 13:15:32.246 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:15:32.371 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 128.0054ms
+2022-02-20 13:15:39.586 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:15:39.586 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:15:39.601 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:15:39.613 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:20:15.683 +01:00 [INF] User profile is available. Using 'C:\Users\riolo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-02-20 13:20:16.825 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:20:17.179 +01:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-02-20 13:20:17.208 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-02-20 13:20:17.214 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-02-20 13:20:17.217 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-02-20 13:20:17.230 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-02-20 13:20:17.248 +01:00 [INF] No migrations were applied. The database is already up to date.
+2022-02-20 13:20:17.267 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:20:17.545 +01:00 [INF] Executed DbCommand (32ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:20:52.363 +01:00 [INF] User profile is available. Using 'C:\Users\riolo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-02-20 13:20:53.557 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:20:53.892 +01:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-02-20 13:20:53.923 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-02-20 13:20:53.931 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-02-20 13:20:53.934 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-02-20 13:20:53.946 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-02-20 13:20:53.967 +01:00 [INF] No migrations were applied. The database is already up to date.
+2022-02-20 13:20:53.991 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:20:54.258 +01:00 [INF] Executed DbCommand (34ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:20:54.563 +01:00 [INF] Now listening on: http://localhost:5000
+2022-02-20 13:20:54.567 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-20 13:20:54.570 +01:00 [INF] Hosting environment: Development
+2022-02-20 13:20:54.572 +01:00 [INF] Content root path: D:\Desktop\indacots\IndacoProject.Corso.Api\IndacoProject.Corso.Api
+2022-02-20 13:21:06.589 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:21:06.677 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 89.9104ms
+2022-02-20 13:21:07.938 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:21:07.942 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 3.8356ms
+2022-02-20 13:21:10.641 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:21:10.645 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 4.2274ms
+2022-02-20 13:21:10.795 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:21:10.802 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 8.9582ms
+2022-02-20 13:21:10.945 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:21:10.953 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 9.0516ms
+2022-02-20 13:21:11.090 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:21:11.093 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 3.3190ms
+2022-02-20 13:21:11.232 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:21:11.236 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 3.4847ms
+2022-02-20 13:21:11.378 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:21:11.383 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 4.3581ms
+2022-02-20 13:21:11.536 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:21:11.540 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 3.4461ms
+2022-02-20 13:21:24.799 +01:00 [INF] Application is shutting down...
+2022-02-20 13:22:01.855 +01:00 [INF] User profile is available. Using 'C:\Users\riolo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-02-20 13:22:03.213 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:22:03.562 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-02-20 13:22:03.589 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-02-20 13:22:03.596 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-02-20 13:22:03.599 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-02-20 13:22:03.612 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-02-20 13:22:03.630 +01:00 [INF] No migrations were applied. The database is already up to date.
+2022-02-20 13:22:03.652 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:22:03.932 +01:00 [INF] Executed DbCommand (38ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:22:25.393 +01:00 [INF] Now listening on: http://localhost:5000
+2022-02-20 13:22:25.396 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-20 13:22:25.399 +01:00 [INF] Hosting environment: Development
+2022-02-20 13:22:25.401 +01:00 [INF] Content root path: D:\Desktop\indacots\IndacoProject.Corso.Api\IndacoProject.Corso.Api
+2022-02-20 13:22:33.744 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:22:33.834 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 91.8528ms
+2022-02-20 13:22:35.096 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:22:35.101 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 5.0190ms
+2022-02-20 13:22:35.577 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:22:35.583 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 5.2481ms
+2022-02-20 13:22:35.733 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:22:35.736 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 3.5424ms
+2022-02-20 13:22:35.885 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:22:35.888 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 3.5593ms
+2022-02-20 13:22:36.043 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:22:36.046 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 3.3138ms
+2022-02-20 13:22:36.206 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:22:36.211 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 4.2381ms
+2022-02-20 13:22:36.366 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:22:36.370 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 3.5855ms
+2022-02-20 13:22:36.517 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:22:36.521 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 3.9413ms
+2022-02-20 13:22:58.235 +01:00 [INF] User profile is available. Using 'C:\Users\riolo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-02-20 13:22:59.566 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:22:59.897 +01:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-02-20 13:22:59.933 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-02-20 13:22:59.940 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-02-20 13:22:59.943 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-02-20 13:22:59.954 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-02-20 13:22:59.973 +01:00 [INF] No migrations were applied. The database is already up to date.
+2022-02-20 13:22:59.994 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:23:00.290 +01:00 [INF] Executed DbCommand (31ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:23:04.833 +01:00 [INF] Now listening on: http://localhost:5000
+2022-02-20 13:23:04.837 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-20 13:23:04.839 +01:00 [INF] Hosting environment: Development
+2022-02-20 13:23:04.841 +01:00 [INF] Content root path: D:\Desktop\indacots\IndacoProject.Corso.Api\IndacoProject.Corso.Api
+2022-02-20 13:23:07.059 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:23:07.288 +01:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'D:\Desktop\indacots\IndacoProject.Corso.Api\IndacoProject.Corso.Api\bin\Debug\net5.0\wwwroot\index.html'
+2022-02-20 13:23:07.323 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2022-02-20 13:23:07.324 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - text/html 266.7469ms
+2022-02-20 13:23:07.326 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 3.2223ms
+2022-02-20 13:23:07.614 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2022-02-20 13:23:07.621 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 404 0 - 6.0511ms
+2022-02-20 13:48:38.626 +01:00 [INF] User profile is available. Using 'C:\Users\riolo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-02-20 13:48:39.879 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:48:40.417 +01:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-02-20 13:48:40.447 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-02-20 13:48:40.454 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-02-20 13:48:40.457 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-02-20 13:48:40.468 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-02-20 13:48:40.485 +01:00 [INF] No migrations were applied. The database is already up to date.
+2022-02-20 13:48:40.507 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:48:40.803 +01:00 [INF] Executed DbCommand (36ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:48:41.307 +01:00 [INF] Now listening on: http://localhost:5000
+2022-02-20 13:48:41.309 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-20 13:48:41.311 +01:00 [INF] Hosting environment: Development
+2022-02-20 13:48:41.313 +01:00 [INF] Content root path: D:\Desktop\indacots\IndacoProject.Corso.Api\IndacoProject.Corso.Api
+2022-02-20 13:48:47.470 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 13:48:48.107 +01:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'D:\Desktop\indacots\IndacoProject.Corso.Api\IndacoProject.Corso.Api\bin\Debug\net5.0\wwwroot\index.html'
+2022-02-20 13:48:48.140 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2022-02-20 13:48:48.143 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - text/html 675.6480ms
+2022-02-20 13:48:48.146 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 5.5206ms
+2022-02-20 13:48:52.830 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/ - -
+2022-02-20 13:48:52.856 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/ - - - 404 0 - 25.7707ms
+2022-02-20 13:48:59.996 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/doc/ - -
+2022-02-20 13:49:00.003 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/doc/ - - - 301 0 - 7.1694ms
+2022-02-20 13:49:00.017 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/doc/index.html - -
+2022-02-20 13:49:00.122 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/doc/index.html - - - 200 - text/html;charset=utf-8 104.8891ms
+2022-02-20 13:49:00.134 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/doc/swagger-ui.css - -
+2022-02-20 13:49:00.136 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/doc/swagger-ui-bundle.js - -
+2022-02-20 13:49:00.136 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/doc/swagger-ui-standalone-preset.js - -
+2022-02-20 13:49:00.137 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2022-02-20 13:49:00.148 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 11.6852ms
+2022-02-20 13:49:00.158 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-02-20 13:49:00.163 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/doc/swagger-ui.css - - - 200 143632 text/css 28.6486ms
+2022-02-20 13:49:00.163 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-02-20 13:49:00.169 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-02-20 13:49:00.169 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/doc/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 32.7190ms
+2022-02-20 13:49:00.173 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/doc/swagger-ui-bundle.js - - - 200 1092889 application/javascript 37.1808ms
+2022-02-20 13:49:00.620 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2022-02-20 13:49:00.624 +01:00 [INF] Executing endpoint '/swagger/{documentName}/swagger.{json|yaml} HTTP: GET'
+2022-02-20 13:49:00.639 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/doc/favicon-32x32.png - -
+2022-02-20 13:49:00.642 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-02-20 13:49:00.647 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/doc/favicon-32x32.png - - - 200 628 image/png 7.8689ms
+2022-02-20 13:49:00.870 +01:00 [INF] Executed endpoint '/swagger/{documentName}/swagger.{json|yaml} HTTP: GET'
+2022-02-20 13:49:00.874 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 253.9496ms
+2022-02-20 13:49:40.910 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:49:40.910 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:49:40.930 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:49:40.941 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:50:40.981 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:50:40.981 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:50:40.996 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:50:40.999 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:51:41.021 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:51:41.023 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:51:41.036 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:51:41.044 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:52:41.069 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:52:41.069 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:52:41.088 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:52:41.091 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:53:41.123 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:53:41.123 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:53:41.153 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:53:41.160 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:54:41.181 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:54:41.187 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:54:41.196 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:54:41.203 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:55:41.233 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:55:41.233 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:55:41.258 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:55:41.266 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:56:41.296 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:56:41.299 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:56:41.322 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:56:41.327 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:57:41.354 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:57:41.356 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:57:41.377 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:57:41.380 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:58:41.464 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:58:41.465 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:58:41.492 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:58:41.499 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:59:41.528 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:59:41.528 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 13:59:41.564 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 13:59:41.567 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:00:41.602 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:00:41.602 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:00:41.621 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:00:41.627 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:01:41.652 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:01:41.653 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:01:41.670 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:01:41.674 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:02:41.700 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:02:41.700 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:02:41.729 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:02:41.737 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:03:41.767 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:03:41.771 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:03:41.822 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:03:41.826 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:04:41.851 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:04:41.851 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:04:41.877 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:04:41.881 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:05:41.906 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:05:41.906 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:05:41.914 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:05:41.921 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:06:41.946 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:06:41.956 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:06:41.966 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:06:41.971 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:07:41.996 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:07:41.996 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:07:42.011 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:07:42.013 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:08:42.042 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:08:42.045 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:08:42.058 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:08:42.065 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:09:42.078 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:09:42.101 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:09:42.104 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:09:42.107 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:10:42.130 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:10:42.130 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:10:42.147 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:10:42.153 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:11:42.195 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:11:42.196 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:11:42.205 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:11:42.211 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:12:42.230 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:12:42.240 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:12:42.244 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:12:42.247 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:13:42.274 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:13:42.277 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:13:42.295 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:13:42.300 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:14:42.320 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:14:42.320 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:14:42.332 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:14:42.335 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:15:42.396 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:15:42.396 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:15:42.406 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:15:42.408 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:16:42.439 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:16:42.456 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:16:42.468 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:16:42.475 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:17:42.501 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:17:42.502 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:17:42.512 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:17:42.514 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:18:42.548 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:18:42.558 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:18:42.565 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:18:42.572 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:19:42.584 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:19:42.587 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:19:42.598 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:19:42.606 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:20:42.642 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:20:42.656 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:20:42.674 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:20:42.679 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:21:42.693 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:21:42.697 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:21:42.708 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:21:42.711 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:22:42.748 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:22:42.748 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:22:42.768 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:22:42.770 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:23:42.790 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:23:42.790 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:23:42.802 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:23:42.805 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:24:42.865 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:24:42.865 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:24:42.883 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:24:42.889 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:25:42.916 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:25:42.920 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:25:42.931 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:25:42.941 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:26:42.963 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:26:42.963 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:26:42.974 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:26:42.982 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:27:43.003 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:27:43.011 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:27:43.021 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:27:43.026 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:28:43.046 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:28:43.046 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:28:43.063 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:28:43.071 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:29:43.117 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:29:43.123 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:29:43.129 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:29:43.143 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:30:43.172 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:30:43.179 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:30:43.195 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:30:43.199 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:31:43.222 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:31:43.223 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:31:43.232 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:31:43.245 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:32:43.279 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:32:43.279 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:32:43.307 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:32:43.310 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:33:43.337 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:33:43.338 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:33:43.362 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:33:43.363 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:34:43.403 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:34:43.418 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:34:43.428 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:34:43.439 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:35:43.460 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:35:43.461 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:35:43.473 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:35:43.476 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:36:43.485 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:36:43.491 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:36:43.498 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:36:43.503 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:37:43.548 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:37:43.562 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:37:43.582 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:37:43.585 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:38:43.604 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:38:43.613 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:38:43.621 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:38:43.624 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:39:43.647 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:39:43.647 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:39:43.667 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:39:43.670 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:40:43.696 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:40:43.696 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:40:43.729 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:40:43.731 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:41:43.787 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:41:43.787 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:41:43.806 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:41:43.815 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:42:43.845 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:42:43.846 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:42:43.859 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:42:43.867 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:43:43.883 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:43:43.890 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:43:43.894 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:43:43.903 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:44:43.910 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:44:43.925 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:44:43.925 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:44:43.929 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:45:43.952 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:45:43.952 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:45:43.973 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:45:43.977 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:46:44.000 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:46:44.000 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:46:44.011 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:46:44.017 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:47:44.043 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:47:44.044 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:47:44.053 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:47:44.060 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:48:36.854 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-20 14:48:36.888 +01:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'D:\Desktop\indacots\IndacoProject.Corso.Api\IndacoProject.Corso.Api\bin\Debug\net5.0\wwwroot\index.html'
+2022-02-20 14:48:36.893 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - text/html 39.2297ms
+2022-02-20 14:48:36.959 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2022-02-20 14:48:36.961 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 2.2043ms
+2022-02-20 14:48:37.226 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2022-02-20 14:48:37.227 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 404 0 - 1.6497ms
+2022-02-20 14:48:44.078 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:48:44.078 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:48:44.087 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:48:44.089 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:48:57.969 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/docs - -
+2022-02-20 14:48:57.974 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/docs - - - 404 0 - 4.8207ms
+2022-02-20 14:49:01.766 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/docs - -
+2022-02-20 14:49:01.770 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/docs - - - 404 0 - 4.6639ms
+2022-02-20 14:49:04.462 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/doc - -
+2022-02-20 14:49:04.468 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/doc - - - 301 0 - 5.6673ms
+2022-02-20 14:49:04.473 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/doc/index.html - -
+2022-02-20 14:49:04.490 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/doc/index.html - - - 200 - text/html;charset=utf-8 17.2548ms
+2022-02-20 14:49:04.520 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2022-02-20 14:49:04.524 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 4.0767ms
+2022-02-20 14:49:04.981 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2022-02-20 14:49:04.985 +01:00 [INF] Executing endpoint '/swagger/{documentName}/swagger.{json|yaml} HTTP: GET'
+2022-02-20 14:49:04.996 +01:00 [INF] Executed endpoint '/swagger/{documentName}/swagger.{json|yaml} HTTP: GET'
+2022-02-20 14:49:05.001 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 19.7911ms
+2022-02-20 14:49:44.121 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:49:44.121 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:49:44.142 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:49:44.147 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:50:44.174 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:50:44.177 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:50:44.185 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:50:44.188 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:51:44.229 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:51:44.230 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:51:44.238 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:51:44.245 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:52:44.271 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:52:44.271 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-02-20 14:52:44.300 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+2022-02-20 14:52:44.304 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
+FROM [Messages] AS [m]
+WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)

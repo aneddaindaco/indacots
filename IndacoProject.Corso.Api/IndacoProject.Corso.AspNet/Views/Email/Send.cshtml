@@ -1,0 +1,25 @@
+﻿@model IndacoProject.Corso.Data.Models.MessageModel
+ 
+@{
+    ViewData["Title"] = "Email Send";
+}
+
+<div>
+    <form asp-controller="Email" asp-action="Send">
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name)
+        <br />
+        @Html.LabelFor(m => m.Email)
+        @Html.TextBoxFor(m => m.Email)
+        <br />
+        @Html.LabelFor(m => m.Subject)
+        @Html.TextBoxFor(m => m.Subject)
+        <br />
+        @Html.LabelFor(m => m.Body)
+        @Html.TextBoxFor(m => m.Body)
+        <br />
+        <input type="submit" value="Send" />
+    </form>
+    <br />
+    <a asp-controller="Email" asp-action="index">back</a>
+</div>
