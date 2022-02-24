@@ -1,6 +1,7 @@
 <div class="container">
-    <header class="jumbotron">
-      <p>{{ content }}</p>
-    </header>
-  </div>
-  
+  <header class="jumbotron">
+    <div *ngIf="hubMailMessage">
+      <strong>Email message: &nbsp;</strong>{{hubMailMessage}}
+    </div>
+  </header>
+</div>
