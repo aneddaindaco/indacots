@@ -12,6 +12,7 @@ using IndacoProject.Corso.Api.Filters;
 using System.IO;
 using IndacoProject.Corso.Services.Extensions;
 using IndacoProject.Corso.Api.Options;
+using IndacoProject.Corso.Api.Hubs;
 
 namespace IndacoProject.Corso.Api
 {
@@ -35,7 +36,8 @@ namespace IndacoProject.Corso.Api
                 builder
                     .AllowAnyMethod()
                     .AllowAnyHeader()
-                    .AllowAnyOrigin();
+                    .WithOrigins("http://localhost:4200") // the Angular app url
+                    .AllowCredentials();
             }));
 
             services.ServiceAutoMapper();
@@ -45,6 +47,7 @@ namespace IndacoProject.Corso.Api
             {
                 o.Filters.Add<SampleExceptionFilter>();
             }).AddNewtonsoftJson();
+            services.AddSignalR();
             services.AddSwagger();
         }
 
@@ -73,6 +76,7 @@ namespace IndacoProject.Corso.Api
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapHub<NotifyHub>("/notify");
             });
             app.IncludeSwagger();
         }
