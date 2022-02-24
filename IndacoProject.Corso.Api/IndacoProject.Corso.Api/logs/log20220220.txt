@@ -884,6 +884,7 @@ WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
 SELECT [m].[Id], [m].[Attempts], [m].[Body], [m].[Email], [m].[Name], [m].[RowVersion], [m].[Sent], [m].[Subject]
 FROM [Messages] AS [m]
 WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
+<<<<<<< HEAD
 2022-02-20 14:53:44.336 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
 2022-02-20 14:53:44.336 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
 2022-02-20 14:53:44.347 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__attempts_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
@@ -1715,3 +1716,5 @@ FROM [Messages] AS [m]
 WHERE ([m].[Sent] <> CAST(1 AS bit)) AND ([m].[Attempts] <= @__attempts_Value_0)
 2022-02-20 21:58:32.251 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
 2022-02-20 21:58:32.280 +01:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+=======
+>>>>>>> 2fa3e60847f54f6ab2a8cbe56864faba6ed3b07a

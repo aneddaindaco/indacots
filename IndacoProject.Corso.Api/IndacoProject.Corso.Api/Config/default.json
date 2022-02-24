@@ -31,8 +31,8 @@
     "Descrizione": "Indaco CM3"
   },
   "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Database=IndacoProject.Corso;Trusted_Connection=True;MultipleActiveResultSets=true;",
-    "Northwind": "Server=localhost;Database=Northwind;Trusted_Connection=True;"
+    "DefaultConnection": "Server=SRV2012;Database=CorsoIndaco;User ID=sa;Password=Duemila17;Trusted_Connection=False;MultipleActiveResultSets=true;",
+    "Northwind": "Server=SRV2012;Database=Northwind;User ID=sa;Password=Duemila17;Trusted_Connection=False;MultipleActiveResultSets=true;"
   },
   "Smtp": {
     "Host": "",

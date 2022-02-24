@@ -31,8 +31,13 @@
     "Descrizione": "Indaco CM2"
   },
   "ConnectionStrings": {
+<<<<<<< HEAD
     "DefaultConnection": "Server=SRV2012;Database=IndacoProject.Corso-Prod;User ID=sa;Password=Duemila17;Trusted_Connection=false;MultipleActiveResultSets=true;",
     "Northwind": "Server=localhost;Database=Northwind;Trusted_Connection=True;"
+=======
+    "DefaultConnection": "Server=SRV2012;Database=CorsoIndaco;User ID=sa;Password=Duemila17;Trusted_Connection=False;MultipleActiveResultSets=true;",
+    "Northwind": "Server=SRV2012;Database=Northwind;User ID=sa;Password=Duemila17;Trusted_Connection=False;MultipleActiveResultSets=true;"
+>>>>>>> 2fa3e60847f54f6ab2a8cbe56864faba6ed3b07a
   },
   "Smtp": {
     "Host": "localhost",
