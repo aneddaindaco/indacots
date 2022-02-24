@@ -19,7 +19,6 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
-using IndacoProject.Corso.AspNet.Services;
 
 namespace IndacoProject.Corso.AspNet
 {
